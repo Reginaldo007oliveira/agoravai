@@ -21,6 +21,7 @@ export const Containerdois = styled.View`
 `;
 
 export const Title = styled.Text`
-  color: #FFF;
-  font-size: 32px;
+   background-color: ${({ theme }) => theme.COLORS.RED};
+  padding: 24px;
+  
 `;
