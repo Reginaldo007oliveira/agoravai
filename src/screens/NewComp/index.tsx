@@ -1,12 +1,14 @@
 
+import { Bola } from '../Groups/styles';
 import { Container, Title } from './styles';
 
 export default function NewComp() {
   return (
     <Container>
     <Title>
-      COMP
+      COMPu
     </Title>
+    <Bola />
   </Container>
   );
 }
